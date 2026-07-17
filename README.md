@@ -47,7 +47,7 @@ npm install
 ```bash
 npm run dev
 ```
-Open [http://localhost:5173/](http://localhost:5173/) (or the port specified in terminal) in your browser.
+Open (https://6a5a6ce70843ad14645888bb--dcetcollegepredictor.netlify.app/)) (or the port specified in terminal) in your browser.
 
 ### 3. Build for Production
 ```bash
