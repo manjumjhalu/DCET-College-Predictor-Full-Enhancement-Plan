@@ -3,7 +3,7 @@
 An AI-powered web application built to predict engineering colleges that Diploma CET (DCET) lateral-entry students can get in Karnataka. It analyzes 5 years of historical KEA counseling cutoff trends to provide estimated admission probabilities.
 
 ---
-
+Open (https://6a5a6ce70843ad14645888bb--dcetcollegepredictor.netlify.app/)
 ### ⚠️ IMPORTANT DISCLAIMER
 > **INDICATIVE PROBABILITIES ONLY — NOT REAL KEA DATA**
 > All predictions and admission probabilities shown here are **statistical estimates** based on historical trends (2021–2025). This tool is **NOT affiliated with KEA** (Karnataka Examinations Authority) or VTU. It does **not** guarantee admission. Always refer to official KEA cutoffs at [kea.kar.nic.in](https://kea.kar.nic.in) before making counseling decisions.
@@ -47,7 +47,7 @@ npm install
 ```bash
 npm run dev
 ```
-Open (https://6a5a6ce70843ad14645888bb--dcetcollegepredictor.netlify.app/)) (or the port specified in terminal) in your browser.
+Open (https://localhost5000/) (or the port specified in terminal) in your browser.
 
 ### 3. Build for Production
 ```bash
@@ -57,11 +57,3 @@ The optimized bundle will be created inside the `dist` folder.
 
 ---
 
-## ☁️ Deployment (Vercel)
-
-This project is a static React application, making it fully compatible with Vercel:
-
-1. Link your GitHub account to [Vercel](https://vercel.com).
-2. Import the `DCET-College-Predictor-Full-Enhancement-Plan` repository.
-3. Vercel will auto-detect Vite settings (`Build Command: npm run build`, `Output Directory: dist`).
-4. Click **Deploy**. The `vercel.json` rewrite file is already configured in the root to handle client-side routing on page refreshes.
